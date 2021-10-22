@@ -1,0 +1,56 @@
+body {
+    width: fit-content;
+    margin: 30vh auto;
+    font-family: 'Open sans', 'Helvetica', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%
+}
+
+input[value='x'] {
+    border: 0;
+    padding: .5em .8em;
+    border-radius: 5px;
+    margin: 0 1em 0 1em;
+    background:rgb(223, 86, 86)
+}
+
+input[value='x']:hover {
+    background:rgb(179, 53, 53)
+}
+
+.completed {
+    margin: 1em;
+    font-size: .8em;
+    color: #666
+}
+
+.add-todo {
+    margin: 1em
+}
+
+.add-todo input[type=text] {
+    border: 0;
+    background: #222;
+    color: #FAFAFA;
+    border-radius: 5px;
+    padding: .8em;
+    font-size: 1.1em
+}
+
+.add-todo input[type=submit] {
+    border: 0;
+    background: rgb(136, 238, 126);
+    color: rgb(84, 150, 78);
+    border-radius: 5px;
+    padding: .8em;
+    font-size: 1.1em
+}

@@ -12,7 +12,6 @@ router.post('/', function(req, res) {
         task: req.body.task,
         completed: false
     })
-    console.log(todos)
     res.redirect('/')
 })
 

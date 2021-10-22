@@ -9,6 +9,9 @@
 </head>
 <body>
     <h1>To-dos</h1>
+    <% if(todos.length < 1) { %>
+        <p class='placeholder-msg'>No todos yet...</p>
+    <% } %>
     <% todos.forEach(t => { %>
         <div class='todo'>
             <form action="/<%= t.id %>?_method=DELETE" method='POST'>

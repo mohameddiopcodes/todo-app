@@ -54,3 +54,8 @@ input[value='x']:hover {
     padding: .8em;
     font-size: 1.1em
 }
+
+.placeholder-msg {
+    color: #555;
+    margin: 0 1em
+}
